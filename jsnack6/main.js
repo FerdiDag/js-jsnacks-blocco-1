@@ -4,5 +4,7 @@ for (var i = 0; i <= 1000; i++) {
     var numero = 2;
 
     var risultato = Math.pow(numero, potenza);
-    console.log(risultato);
+ if (risultato < 1000) {
+     console.log(risultato);
+ }
 }
